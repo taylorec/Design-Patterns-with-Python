@@ -1,3 +1,12 @@
+'''
+The interpreter design pattern is used to establish a grammatical representation
+and an interpreter that interprets language. That might sound a bit complex and,
+although the concept is simple, their implementation often is not. This design pattern
+can be used for the interpretation of interpreted programming languages or languages
+that are compiled in byte code or other intermediate languages such as the
+Microsoft Intermediate Language (MSIL).
+'''
+
 
 from pyparsing import Word, OneOrMore, Optional, Group, Suppress, alphanums  
 
