@@ -1,3 +1,11 @@
+'''
+The purpose of the chain of responsibility design pattern involves senders and receivers.
+Specifically, the chain of responsibility design pattern calls for the decoupling of the
+sender and receiver. Objects can be sent to a series of receivers without the sender being
+concerned about which receiver handles the request. The request is sent along a chain of receivers and
+only one of them will process the request.
+'''
+
 class Event: 
     def __init__(self, name): 
         self.name = name 
