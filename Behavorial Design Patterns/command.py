@@ -1,3 +1,13 @@
+'''
+The purpose of the command design pattern is to send requests as objects.
+This pattern, also referred to as the transaction or action design pattern,
+permits the sending of requests without knowing any details about the receiver
+or even about what is being requested. This might sound counter-intuitive, and
+requires that it be looked at from a systems perspective and not a human-managed
+operation. With the command pattern, we encapsulate requests as objects and transmit
+them to a receiver.
+'''
+
 import os  
  
 verbose = True  
