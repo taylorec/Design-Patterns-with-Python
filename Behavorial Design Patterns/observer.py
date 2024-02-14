@@ -1,3 +1,8 @@
+'''
+The observer design pattern requires a one-to-many object dependency.
+The purpose of the dependency is to update subscriber objects when a change
+is made to the publisher object's state.
+'''
 
 class Publisher:  
     def __init__(self):  
