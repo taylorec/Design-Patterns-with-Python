@@ -1,3 +1,8 @@
+'''
+The memento design pattern saves an object's current internal state as a
+memento so that it can be referred to and restored to.
+'''
+
 import pickle
 
 class Quote:
