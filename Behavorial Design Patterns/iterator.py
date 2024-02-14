@@ -1,3 +1,8 @@
+'''
+The purpose of the iterator design pattern is to grant access to an
+object's members without sharing the encapsulated data structures.
+'''
+
 class FootballTeamIterator:  
 
     def __init__(self, members):
