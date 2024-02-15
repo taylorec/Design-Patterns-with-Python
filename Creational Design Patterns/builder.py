@@ -1,3 +1,8 @@
+'''
+The  builder design pattern is used to create a separation
+between object instantiation and representation. The purpose
+is to permit different representations with the same instantiation process.
+'''
 
 from enum import Enum
 import time
