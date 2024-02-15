@@ -1,3 +1,10 @@
+'''
+The factory method design pattern allows subclasses to determine
+which class to create. This is achieved by removing details about which
+class to create away from the framework. Instead, the subclasses are
+given the responsibility for object creation.
+'''
+
 import json
 import xml.etree.ElementTree as etree
 
