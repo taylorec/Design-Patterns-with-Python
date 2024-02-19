@@ -1,3 +1,13 @@
+'''
+The prototype design pattern allows us to specify a category of objects using a
+prototype instance. This instance is then copied in order to create new objects.
+The prototype design pattern is ideal for situations when you want object creation
+to be independent of the system. For example, we might be developing a game with
+multiple levels. Each level is based on a core level and modified thereafter. We can
+clone the prototype level in order to create subsequent levels and avoid having to
+start level creation from scratch.
+'''
+
 import copy
 
 class Website: 
