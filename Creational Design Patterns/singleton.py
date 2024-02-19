@@ -1,4 +1,7 @@
-
+'''
+The purpose of this design pattern is to ensure there is only one instance of
+the class, and it must be externally accessible.
+'''
 
 import urllib.parse
 import urllib.request
