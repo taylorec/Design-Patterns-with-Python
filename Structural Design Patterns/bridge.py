@@ -1,4 +1,6 @@
-
+'''
+The bridge design pattern simply separates abstraction from implementation.
+'''
 
 import abc
 import urllib.parse
