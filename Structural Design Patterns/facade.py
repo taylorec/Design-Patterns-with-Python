@@ -1,3 +1,14 @@
+'''
+The facade design pattern creates an interface that is served as an interface to
+other interfaces within a system or subsystem. The benefits of using this design
+pattern are that subsystems are less complex, the reliance components is reduced,
+and communication between system components is minimized.
+https://static.packt-cdn.com/products/9781789809770/graphics/assets/457a7ddf-21bd-485b-8b25-c38dc757caa1.png
+As indicated in the diagram, the facade interface serves as an interface between the system and
+subsystem. It can also be correction inferred that the facade interface will prevent the
+unnecessary exposure of details to the system.
+'''
+
 from enum import Enum 
 from abc import ABCMeta, abstractmethod 
  
