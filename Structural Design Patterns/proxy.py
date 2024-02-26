@@ -1,3 +1,7 @@
+'''
+Proxy is defined as having the authority to represent another object.
+'''
+
 class SensitiveInfo: 
     def __init__(self): 
         self.users = ['nick', 'tom', 'ben', 'mike'] 
