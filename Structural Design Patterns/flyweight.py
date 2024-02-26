@@ -1,3 +1,9 @@
+'''
+The flyweight design patterns offer great efficiency and improved processing
+when dealing with a large number of similar objects. The pattern uses sharing
+of identical object components.
+'''
+
 import random 
 from enum import Enum 
  
